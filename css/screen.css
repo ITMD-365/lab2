@@ -1,4 +1,4 @@
-/* Mobile Styles (Mobile First Approach) */
+/* For mobile screens */
 body {
   font-family: Arial, sans-serif;
   padding: 20px;
@@ -27,17 +27,17 @@ input {
 button {
   width: 100%;
   padding: 15px;
-  background-color: #4CAF50;
+  background-color: #CBC3E3;
   color: white;
   border: none;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #45a049;
+  background-color: #9370DB;
 }
 
-/* Desktop Styles (Overrides for larger screens) */
+/* For larger screens AKA desktops */
 @media (min-width: 768px) {
   body {
     padding: 40px;
